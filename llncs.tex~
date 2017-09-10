@@ -1,44 +1,88 @@
-\documentclass{llncs}
-
-%\usepackage{graphicx}
+% This is based on the LLNCS.DEM the demonstration file of
+% the LaTeX macro package from Springer-Verlag
+% for Lecture Notes in Computer Science,
+% version 2.4 for LaTeX2e as of 16. April 2010
 %
+% See http://www.springer.com/computer/lncs/lncs+authors?SGWID=0-40209-0-0-0
+% for the full guidelines.
+%
+\documentclass{llncs}
+\usepackage[utf8]{inputenc}
 \begin{document}
 
+\title{Operaciones con conjuntos de cadenas}
+%
+\titlerunning{Hamiltonian Mechanics}  % abbreviated title (for running head)
+%                                     also used for the TOC unless
+%                                     \toctitle is used
+%
+\author{Ángel Emmanuel Marín Ramírez\inst{1}, Rafael Gil Sánchez\inst{1}, Fatima Miranda Muñoz \inst{1}, Esleban Xochitemol Pérez\inst{1}, Luis Gerardo Alvarado Fuentes\inst{1}
+}
+%
+\authorrunning{Ivar Ekeland et al.} % abbreviated author list (for running head)
+%
+%%%% list of authors for the TOC (use if author list has to be modified)
+\tocauthor{Ángel Emmanuel Marín Ramírez, Rafael Gil Sánchez, Fatima Miranda Muñoz ,  Esleban Xochitemol Pérez,
+ y Luis Gerardo Alvarado Fuentes}
+%
+\institute{Benemerita Universidad Autonoma de Puebla, Puebla, Pue. 72570, Mex,\\
+\email{I.Ekeland@princeton.edu},\\ WWW Página:
+\texttt{http://www.buap.mx/}
+}
 
-\title{LaTeX Template for Your LNCS Paper}
-
-\author{Author 1, Author 2}
-
-\institute{Lab, University, Address}
-\maketitle
+\maketitle              % typeset the title of the contribution
 
 \begin{abstract}
+The abstract should summarize the contents of the paper
+using at least 70 and at most 150 words. It will be set in 9-point
+font size and be inset 1.0 cm from the right and left margins.
+There will be two blank lines before and after the Abstract. \dots
 
-Abstract is here.
-
+\keywords{Teoría de conjuntos, objeto de aprendizaje,Cadenas, Alfabeto, Operaciones de conjuntos, propiedades de conjuntos.}
 \end{abstract}
-
-\section{Introduction}\label{sec:Introduction}
-
-Introduction is here.
-
-\section{Other Sections}\label{sec:Others}
-
-Other sections are here. 
+%
+\section{Introducción}
+%
+El presente artículo explica el proceso de creación de una nueva herramienta de aprendizaje con el objetivo de poder enseñar a cualquier persona con acceso a internet las diferentes operaciones de conjuntos con cadenas que existen, utilizando como instrumento una plataforma, la cual se enfoca de manera única y exclusiva a la enseñanza de este tema por medio de mas objetos de aprendizaje que interactúan entre sí, como son videos, imágenes, documentos PDF con ejemplos y enlaces de referencia. Así mismo se describen de manera clara los resultados que se esperan obtener tras implementar esta herramienta con diferentes usuarios, de tal forma que son visibles los beneficios generados al emplear la tecnología en el ámbito de la educación  para poder aprender sobre algún tema de estudio.
+Finalmente se consideran miras hacia el futuro, como lo es la evolución de este medio en respuesta de las necesidades de los usuarios, no únicamente con la idea de la plataforma que se implementa, sino también con la variedad en en los temas y los métodos en cómo se imparte la educación.
 
 
-\section{Conclusion}\label{sec:Conclusión}
+%
+\section{Marco teórico}
+%
 
-Conclusions are here.
+% ---- Bibliography ----
+%
+\begin{thebibliography}{5}
+%
+\bibitem {clar:eke}
+Clarke, F., Ekeland, I.:
+Nonlinear oscillations and
+boundary-value problems for Hamiltonian systems.
+Arch. Rat. Mech. Anal. 78, 315--333 (1982)
 
-\section*{Acknowledgments}\label{sec:Acknowledgments}
+\bibitem {clar:eke:2}
+Clarke, F., Ekeland, I.:
+Solutions p\'{e}riodiques, du
+p\'{e}riode donn\'{e}e, des \'{e}quations hamiltoniennes.
+Note CRAS Paris 287, 1013--1015 (1978)
 
-Authors would like to thank YYYYY.
+\bibitem {mich:tar}
+Michalek, R., Tarantello, G.:
+Subharmonic solutions with prescribed minimal
+period for nonautonomous Hamiltonian systems.
+J. Diff. Eq. 72, 28--55 (1988)
 
-\begin{thebibliography}{1}
+\bibitem {tar}
+Tarantello, G.:
+Subharmonic solutions for Hamiltonian
+systems via a $\bbbz_{p}$ pseudoindex theory.
+Annali di Matematica Pura (to appear)
 
-\bibitem{Einstein}
-A. Einstein, On the movement of small particles suspended in stationary liquids required by the molecular-kinetic theory of heat, Annalen der Physik 17, pp. 549-560, 1905.
+\bibitem {rab}
+Rabinowitz, P.:
+On subharmonic solutions of a Hamiltonian system.
+Comm. Pure Appl. Math. 33, 609--633 (1980)
 
 \end{thebibliography}
 
