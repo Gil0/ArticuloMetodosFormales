@@ -23,10 +23,10 @@
   "llncs.tex" 1505168348 20631 7fc09ffc546785e91a833bb340121422 ""
   "remreset.sty" 1503982540 1096 6a75275ca00e32428c6f059d2f618ea7 ""
   (generated)
-  "llncs.log"
   "llncs.aux"
+  "llncs.log"
   "llncs.dvi"
-["pdflatex"] 1505170141 "llncs.tex" "llncs.pdf" "llncs" 1505170142
+["pdflatex"] 1505170141 "llncs.tex" "llncs.pdf" "llncs" 1505170630
   "/home/Gil/.cache/texlive/texmf-var/web2c/pdftex/pdflatex.fmt" 1502511194 719143 290c15e331a4cf91698cb58af8872501 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1463015741 1888031 5317a64a246c13fa560847c387843238 ""
@@ -57,11 +57,11 @@
   "/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty" 1462659744 29824 08f95a42addbc2524015cbf3bc7ad24a ""
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1488979921 31949 3ae02a131d161fd383f5b89f8ad0930c ""
   "aliascnt.sty" 1503982540 2598 b30528bf103263149326b7572d9672a5 ""
-  "llncs.aux" 1505170142 1445 d1271787e61d32c8e207240ac07e4d05 ""
+  "llncs.aux" 1505170435 1445 d1271787e61d32c8e207240ac07e4d05 ""
   "llncs.cls" 1504457862 42883 271b24d426a51b6c1c27d8179541db82 ""
-  "llncs.tex" 1505170141 20797 a3c70aca042e9f7249a977d819d5ad08 ""
+  "llncs.tex" 1505170629 20797 a3c70aca042e9f7249a977d819d5ad08 ""
   "remreset.sty" 1503982540 1096 6a75275ca00e32428c6f059d2f618ea7 ""
   (generated)
-  "llncs.pdf"
-  "llncs.aux"
   "llncs.log"
+  "llncs.aux"
+  "llncs.pdf"
