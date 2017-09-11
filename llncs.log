@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=pdflatex 2017.9.9)  10 SEP 2017 21:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=pdflatex 2017.9.9)  11 SEP 2017 01:00
 entering extended mode
 **./llncs.tex
 (llncs.tex
@@ -444,7 +444,11 @@ Now handling font encoding U ...
    defining Unicode char U+2026 (decimal 8230)
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
-)) (llncs.aux)
+)) (llncs.aux
+
+LaTeX Warning: Label `int s' multiply defined.
+
+)
 \openout1 = `llncs.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
@@ -482,38 +486,80 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--83
  []
 
 [3] [4]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 154.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 154.
- [5]
-Overfull \hbox (0.78763pt too wide) in paragraph at lines 200--201
+Underfull \hbox (badness 10000) in paragraph at lines 135--137
+\OT1/cmr/m/n/9 edublogs/ceipmariajesusramirezdiaz/files/2013/09/4-CONOCIMIENTOS
+-
+ []
+
+[5]
+Underfull \hbox (badness 3354) in paragraph at lines 193--194
+[]\OT1/cmr/m/n/9 Dean Kel-ley.\Teora de Automatas y Lengua-jes For-males". P
+rentice-Hall
+ []
+
+
+Overfull \hbox (0.78763pt too wide) in paragraph at lines 235--236
 []\OT1/cmr/bx/n/10 Interseccion \OT1/cmr/m/n/10 de dos con-jun-tos con-siste e
 n to-dos los el-e-men-tos que pertenecen
  []
 
-[6] (llncs.aux) ) 
+[6]
+
+LaTeX Warning: Command \O invalid in math mode on input line 286.
+
+
+LaTeX Warning: Command \O invalid in math mode on input line 286.
+
+
+LaTeX Warning: Command \O invalid in math mode on input line 290.
+
+
+LaTeX Warning: Command \O invalid in math mode on input line 290.
+
+
+LaTeX Warning: Command \O invalid in math mode on input line 318.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--328
+
+ []
+
+[7]
+
+LaTeX Warning: Command \O invalid in math mode on input line 359.
+
+
+LaTeX Warning: Command \O invalid in math mode on input line 359.
+
+
+LaTeX Warning: Command \O invalid in math mode on input line 411.
+
+
+LaTeX Warning: Command \O invalid in math mode on input line 411.
+
+[8] (llncs.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 980 strings out of 493323
- 9977 string characters out of 3135619
+ 972 strings out of 493323
+ 9839 string characters out of 3135619
  75814 words of memory out of 3000000
  4563 multiletter control sequences out of 15000+200000
- 8967 words of font info for 32 fonts, out of 3000000 for 9000
+ 5932 words of font info for 22 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,7n,21p,1829b,194s stack positions out of 5000i,500n,10000p,200000b,50000s
-<D:/archivos de programas/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmbx10.pfb><D:/archivos de programas/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmbx12.pfb><D:/archivos de programas/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmbx9.pfb><D:/archivos de programas/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmmi10.pfb><D:/archivos de programas/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmmi6.pfb><D:/archivos de programas/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmmi9.pfb><D:/archivos de programas/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr10.pfb><D:/archivos de programas/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmr7.pfb><D:/archivos de programas/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmr9.pfb><D:/archivos de programas/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-sy10.pfb><D:/archivos de programas/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-tt9.pfb>
-Output written on llncs.pdf (6 pages, 156731 bytes).
+ 29i,5n,21p,1829b,232s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/archivos de programas/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pf
+b><D:/archivos de programas/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pf
+b><D:/archivos de programas/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb
+><D:/archivos de programas/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+><D:/archivos de programas/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+<D:/archivos de programas/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><D
+:/archivos de programas/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><D:/
+archivos de programas/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/
+archivos de programas/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on llncs.pdf (8 pages, 151446 bytes).
 PDF statistics:
  65 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
