@@ -8,7 +8,23 @@
 %
 \documentclass{llncs}
 \usepackage[utf8]{inputenc}
+
+\usepackage{etoolbox} % provides \patchcmd macro
+\usepackage{fancyhdr}
+
+
+
+\pagestyle{fancy}
+
+\fancyhead{}
+\fancyfoot{}
+
+\fancyhead[LO, LE]{\thepage}
+\renewcommand{\headrulewidth}{0pt} \renewcommand{\footrulewidth}{0pt} 
+
 \begin{document}
+
+
 
 \title{Objetos de Aprendizaje para operaciones de conjuntos con cadenas}
 %
@@ -40,7 +56,6 @@ The present article represents the need to create new teaching alternatives that
 \section{Introducción}
 %
 El presente artículo explica el proceso de creación de una nueva herramienta de aprendizaje con el objetivo de poder enseñar a cualquier persona con acceso a internet las diferentes operaciones de conjuntos con cadenas que existen, utilizando como instrumento una plataforma, la cual se enfoca de manera única y exclusiva a la enseñanza de este tema por medio de mas objetos de aprendizaje que interactúan entre sí, como son videos, imágenes, documentos PDF con ejemplos y enlaces de referencia. Así mismo se describe de manera clara los resultados que se esperan obtener tras implementar esta herramienta con diferentes usuarios, de tal forma que sean visibles los beneficios generados al emplear la tecnología en el ámbito de la educación  para poder aprender sobre algún tema de estudio.
-
 Finalmente se considera mirar hacia el futuro, como lo es la evolución de este medio en respuesta de las necesidades de los usuarios, no únicamente con la idea de la plataforma que se implementa, sino también con la variedad en en los temas y los métodos en cómo se imparte la educación.
 
 %
@@ -56,20 +71,16 @@ Para que un recurso digital  sea un objeto de aprendizaje debe cumplir ciertas c
 Propósito Educativo: guía el proceso de aprendizaje básico fomentando a la adquisición de conocimiento .\\
 \textbf{Propósito Educativo:} guía el proceso de aprendizaje básico fomentando a la adquisición de conocimiento.[5]\\
 \textbf{Criterios para construir un objeto de aprendizaje} \\
-La creación y diseño de un objeto de aprendizaje es un proceso complejo ya que es necesario garantizar calidad de los recursos por lo que es ideal apegarse a un proceso de desarrollo para su creación [6].
-
+La creación y diseño de un objeto de aprendizaje es un proceso complejo ya que es necesario garantizar calidad de los recursos por lo que es ideal apegarse a un proceso de desarrollo para su creación [6].\\
 Los objetos de aprendizaje abarcan el único objetivo de aprendizaje. Para lograrlo deben ser autosuficientes, es decir, mantener una independencia del contexto y requerir de otros recursos para alcanzar su objetivo.
 Para su construcción se pueden considerar estos cuatro componentes:\\
 \textbf{Introducción:} este puede contemplar los modos para motivar a los alumnos para su estudio, como despertar su interés por los temas ayudando a relacionarlos con conocimientos previos y posteriores.\\
 \textbf{Objetivos:} Expresar de manera clara lo que el estudiante será capaz de realizar y aprender.\\
 \textbf{Contenido:} Se refiere al modo de representar conocimiento, estos pueden ser mediante: definiciones, lecturas, artículos, visualización de videos, actividades para alcanzar los objetivos.\\
 \textbf{Evaluación:} El modo de revisión de las actividades para mejorar actividades y si es posible mejorar las actividades [7].\\
-
 \textbf{Operaciones de Conjuntos con cadenas}\\
-El estudio de la teoría de conjuntos es uno de los pilares fundamentales para el aprendizaje de matemática. En la actualidad se utiliza para la enseñanza de las ciencias exactas, específicamente en la asignatura de Matemáticas Discretas, Teoría de Autómatas y Lenguajes Formales.
-
-Para comprender las operaciones de conjuntos de cadenas se debe considerar proporcionar definiciones, términos clave y una notación. Como parte introductoria se deben tener claro conceptos como Alfabeto o vocabulario incluyendo sus representaciones, conjunto y los diferentes operaciones de conjuntos que son la base para aprender este tema (Ver Apéndice A). Después es prudente conocer todo lo necesario sobre cadenas, su significado (Ver Apéndice B) y sus operaciones (Ver Apéndice C).
-
+El estudio de la teoría de conjuntos es uno de los pilares fundamentales para el aprendizaje de matemática. En la actualidad se utiliza para la enseñanza de las ciencias exactas, específicamente en la asignatura de Matemáticas Discretas, Teoría de Autómatas y Lenguajes Formales.\\
+Para comprender las operaciones de conjuntos de cadenas se debe considerar proporcionar definiciones, términos clave y una notación. Como parte introductoria se deben tener claro conceptos como Alfabeto o vocabulario incluyendo sus representaciones, conjunto y los diferentes operaciones de conjuntos que son la base para aprender este tema (Ver Apéndice A). Después es prudente conocer todo lo necesario sobre cadenas, su significado (Ver Apéndice B) y sus operaciones (Ver Apéndice C).\\
 El enfoque de la plataforma a la educación es un medio de provecho y accesibilidad Según el Global Internet Report 2015[8] de la Internet Society[9] ya que el número de usuarios con acceso a Internet crece cada vez más, no solo en nuestro país sino de manera global.
 
 
@@ -86,15 +97,13 @@ Una plataforma web enfocada a la educación es una recurso que cubre las exigenc
 
 
 \subsection{Desarrollo}
-En la actualidad existe un gran número de herramientas para el desarrollo web, sin embargo se optó por el framework de PHP(Hypertext Preprocessor))[10] Laravel[11] en su versión 5.2. 
-
+En la actualidad existe un gran número de herramientas para el desarrollo web, sin embargo se optó por el framework de PHP(Hypertext Preprocessor))[10] Laravel[11] en su versión 5.2. \\
 La versión de PHP solicita como único requisito ser menor o igual a la Séptima Versión ya que esta trabaja con Composer[12], el cual es un gestor de dependencias de PHP entre sus versiones 1.3 a 1.5. Por otro lado, en el front-end se utilizará Bootstrap[13] versión 4, el cual es un conjunto de herramientas de código abierto para desarrollar HTML(HyperText Markup Language), CSS(Cascading Style Sheets) y JS(JavaScript). El tema de la organizacion y estructuracion del sistema se lleva a cabo mediante la herramienta de versionamiento de software Git[14] y la plataforma de desarrollo colaborativo Github[15].
 
 
 %
 \section{Resultados}
-La reducción de la brecha digital, que se está acentuando cada vez más no solo en nuestro país sino de manera global, provoca que existan cada vez más usuarios que puedan tener acceso y uso del Internet, propiciando un entorno favorable para el uso de plataformas web que usen distintos tipos de objetos de aprendizaje con el fin de poder facilitar la manera de estudiar y aprender algún tema nuevo o difícil de comprender, lo cual genera a su vez que exista una nuevo panorama en la orientación de desarrollo web: La educación.
-
+La reducción de la brecha digital, que se está acentuando cada vez más no solo en nuestro país sino de manera global, provoca que existan cada vez más usuarios que puedan tener acceso y uso del Internet, propiciando un entorno favorable para el uso de plataformas web que usen distintos tipos de objetos de aprendizaje con el fin de poder facilitar la manera de estudiar y aprender algún tema nuevo o difícil de comprender, lo cual genera a su vez que exista una nuevo panorama en la orientación de desarrollo web: La educación.\\
 Existe una amplia cantidad de beneficios de usar herramientas digitales como plataformas web para el aprendizaje, entre los cuales están:
 \begin{itemize}
 \item Acceso a la información en casi cualquier lugar.
@@ -197,7 +206,7 @@ Dean Kelley.“Teoría de Autómatas y Lenguajes Formales”. Prentice-Hall Inc.
 \end{thebibliography}
 
 \section{Apéndices}
-\textbf{Apéndice  A} \\
+\textbf{Apéndice  A[16]} \\
 Un alfabeto o vocabulario $\Sigma  $ es un conjunto finito no vacío de símbolos (objetos atómicos o indivisibles).\\
  Ejemplos de alfabetos:\\
 Alfabeto de dígitos decimales
@@ -317,7 +326,7 @@ A*= { \in } \cup AA*
 \[ 
 Ø*={\in}
   \] 
-  \textbf{Apéndice  B}
+  \textbf{Apéndice  B[17]} \\  
   Cadena
 Una cadena x es una sucesión finita de símbolos, sobre un alfabeto
 Las cadenas x1, x2,x3,x4 sobre E={0,1} se definen como:\\
@@ -340,7 +349,7 @@ A*= A0 \cup A1 \cup A2 \cup A3 ... n
 \]
 
 \  \  \  \  \  \  \  \  \  \  \  \  \  \  \  \  A+= AA* = n  (no incluye cadena vacía) \\
-\textbf{Apéndice C} \\
+\textbf{Apéndice C[18]} \\
 \textbf{Unión de lenguajes}
 \[
 L1 \cup L2=

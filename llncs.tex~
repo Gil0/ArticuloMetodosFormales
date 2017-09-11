@@ -10,9 +10,9 @@
 \usepackage[utf8]{inputenc}
 \begin{document}
 
-\title{Operaciones con conjuntos de cadenas}
+\title{Objetos de Aprendizaje para operaciones de conjuntos con cadenas}
 %
-\titlerunning{Hamiltonian Mechanics}  % abbreviated title (for running head)
+\titlerunning{Objetos de Aprendizaje para operaciones de conjuntos con cadenas}  % abbreviated title (for running head)
 %                                     also used for the TOC unless
 %                                     \toctitle is used
 %
@@ -22,68 +22,400 @@
 \authorrunning{Ivar Ekeland et al.} % abbreviated author list (for running head)
 %
 %%%% list of authors for the TOC (use if author list has to be modified)
-\tocauthor{Ángel Emmanuel Marín Ramírez, Rafael Gil Sánchez, Fatima Miranda Muñoz ,  Esleban Xochitemol Pérez,
- y Luis Gerardo Alvarado Fuentes}
-%
-\institute{Benemerita Universidad Autonoma de Puebla, Puebla, Pue. 72570, Mex,\\
-\email{I.Ekeland@princeton.edu},\\ WWW Página:
-\texttt{http://www.buap.mx/}
+\tocauthor{Ángel Emmanuel Marín Ramírez, Esleban Xochitemol Pérez, Fatima Miranda Muñoz, Rafael Gil Sánchez y Luis Gerardo Alvarado Fuentes}
+
+\institute{Benemerita Universidad Autonoma de Puebla, Puebla, Pue. 72570, Mex,
+\email{manolomr221@gmail.com,steeven866@gmail.com,fatyss2miranda@gmail.com,
+gilrafael47@gmail.com,luisjerry1995@gmail.com}
 }
 
 \maketitle              % typeset the title of the contribution
 
 \begin{abstract}
-The abstract should summarize the contents of the paper
-using at least 70 and at most 150 words. It will be set in 9-point
-font size and be inset 1.0 cm from the right and left margins.
-There will be two blank lines before and after the Abstract. \dots
+The present article represents the need to create new teaching alternatives that could be capable of reaching as many users as possible, the development of a Web Platform for theoretical and practical learning about the topic of Chain Set Operations, consists in a division of lessons that are conformed by initial explanations about the sub-theme that is being discussed, is supported by a video, image or some other graphic resource, which provides a clearer idea and will help them to have a better understanding of it, followed immediately by a series of exercises to put in practice what is learned with the explanation, without there being a restriction in the number of times that these exercises can be carried out, which will help to identify the weaknesses of the obtained knowledge. The most important benefits are the convenience and availability in access to these knowledge portals that have proven to be a preferred choice by students, which are the main users. \dots
 
 \keywords{Teoría de conjuntos, objeto de aprendizaje,Cadenas, Alfabeto, Operaciones de conjuntos, propiedades de conjuntos.}
 \end{abstract}
 %
 \section{Introducción}
 %
-El presente artículo explica el proceso de creación de una nueva herramienta de aprendizaje con el objetivo de poder enseñar a cualquier persona con acceso a internet las diferentes operaciones de conjuntos con cadenas que existen, utilizando como instrumento una plataforma, la cual se enfoca de manera única y exclusiva a la enseñanza de este tema por medio de mas objetos de aprendizaje que interactúan entre sí, como son videos, imágenes, documentos PDF con ejemplos y enlaces de referencia. Así mismo se describen de manera clara los resultados que se esperan obtener tras implementar esta herramienta con diferentes usuarios, de tal forma que son visibles los beneficios generados al emplear la tecnología en el ámbito de la educación  para poder aprender sobre algún tema de estudio.
-Finalmente se consideran miras hacia el futuro, como lo es la evolución de este medio en respuesta de las necesidades de los usuarios, no únicamente con la idea de la plataforma que se implementa, sino también con la variedad en en los temas y los métodos en cómo se imparte la educación.
-
+El presente artículo explica el proceso de creación de una nueva herramienta de aprendizaje con el objetivo de poder enseñar a cualquier persona con acceso a internet las diferentes operaciones de conjuntos con cadenas que existen, utilizando como instrumento una plataforma, la cual se enfoca de manera única y exclusiva a la enseñanza de este tema por medio de mas objetos de aprendizaje que interactúan entre sí, como son videos, imágenes, documentos PDF con ejemplos y enlaces de referencia. Así mismo se describe de manera clara los resultados que se esperan obtener tras implementar esta herramienta con diferentes usuarios, de tal forma que sean visibles los beneficios generados al emplear la tecnología en el ámbito de la educación  para poder aprender sobre algún tema de estudio.
+Finalmente se considera mirar hacia el futuro, como lo es la evolución de este medio en respuesta de las necesidades de los usuarios, no únicamente con la idea de la plataforma que se implementa, sino también con la variedad en en los temas y los métodos en cómo se imparte la educación.
 
 %
 \section{Marco teórico}
+\textbf{Objetos de aprendizaje} \\
+El aprendizaje tiene como característica establecer una relación entre nuevos materiales con ideas ya existentes en la estructura cognitiva del estudiante, es decir,  no aprender con técnicas memorísticas [1]. Existe un gran número de organizaciones se encuentran desarrollando estándares y especificaciones de aprendizaje. Sin embargo, la posibilidad de que los objetos de aprendizaje sean compartidos no significa que el contenido de éstos sea de calidad [2].
+El término Objeto de Aprendizaje (OA) fue utilizado por primera vez por Wayne Hodgins [3], sin embargo la IEEE (The Institute of Electrical and Electronics Engineers) lo define en 1992 como “cualquier entidad digital o no que puede ser usada para aprender, enseñar o capacitar” [4].\\
+Para que un recurso digital  sea un objeto de aprendizaje debe cumplir ciertas características como:\\
+\textbf{Flexibilidad:} tener facilidad de actualización, búsqueda para ser usado en diferentes contextos y objetivos.\\
+\textbf{Personalización:} posibilidad de tener cambios de contenido a la medida de las necesidades de los usuarios.\\
+\textbf{Reutilización:} es un objeto usado en contextos y propósitos diferentes y combinarse sin problemas de compatibilidad con otras plataformas.\\
+\textbf{Accesibilidad:} poder ser identificados, buscados y encontrados fácilmente.
+Propósito Educativo: guía el proceso de aprendizaje básico fomentando a la adquisición de conocimiento .\\
+\textbf{Propósito Educativo:} guía el proceso de aprendizaje básico fomentando a la adquisición de conocimiento.[5]\\
+\textbf{Criterios para construir un objeto de aprendizaje} \\
+La creación y diseño de un objeto de aprendizaje es un proceso complejo ya que es necesario garantizar calidad de los recursos por lo que es ideal apegarse a un proceso de desarrollo para su creación [6].\\
+Los objetos de aprendizaje abarcan el único objetivo de aprendizaje. Para lograrlo deben ser autosuficientes, es decir, mantener una independencia del contexto y requerir de otros recursos para alcanzar su objetivo.
+Para su construcción se pueden considerar estos cuatro componentes:\\
+\textbf{Introducción:} este puede contemplar los modos para motivar a los alumnos para su estudio, como despertar su interés por los temas ayudando a relacionarlos con conocimientos previos y posteriores.\\
+\textbf{Objetivos:} Expresar de manera clara lo que el estudiante será capaz de realizar y aprender.\\
+\textbf{Contenido:} Se refiere al modo de representar conocimiento, estos pueden ser mediante: definiciones, lecturas, artículos, visualización de videos, actividades para alcanzar los objetivos.\\
+\textbf{Evaluación:} El modo de revisión de las actividades para mejorar actividades y si es posible mejorar las actividades [7].\\
+\textbf{Operaciones de Conjuntos con cadenas}\\
+El estudio de la teoría de conjuntos es uno de los pilares fundamentales para el aprendizaje de matemática. En la actualidad se utiliza para la enseñanza de las ciencias exactas, específicamente en la asignatura de Matemáticas Discretas, Teoría de Autómatas y Lenguajes Formales.\\
+Para comprender las operaciones de conjuntos de cadenas se debe considerar proporcionar definiciones, términos clave y una notación. Como parte introductoria se deben tener claro conceptos como Alfabeto o vocabulario incluyendo sus representaciones, conjunto y los diferentes operaciones de conjuntos que son la base para aprender este tema (Ver Apéndice A). Después es prudente conocer todo lo necesario sobre cadenas, su significado (Ver Apéndice B) y sus operaciones (Ver Apéndice C).\\
+El enfoque de la plataforma a la educación es un medio de provecho y accesibilidad Según el Global Internet Report 2015[8] de la Internet Society[9] ya que el número de usuarios con acceso a Internet crece cada vez más, no solo en nuestro país sino de manera global.
+
+
+%
+
+%
+\section{Contribución}
+%
+\subsection{Análisis}
+Ya que el acceso a la información a través de internet es de forma rápida y fácil  se optó por la creación un sitio web en el cual cualquier persona pueda tener acceso a información sobre operaciones de conjuntos de cadenas mediante explicaciones, lecturas, recursos multimedia como gráficos y/o videos que tendrán la función de interpretar los conceptos en ideas visuales más fáciles de comprender para el usuario, también contará con referencias a ligas externas en caso de requerirse profundizar en el tema o alguno de los subtemas, en donde se espera que la persona que haga uso de nuestro sitio web además de aprender, podrán poner en práctica los conocimientos adquiridos en el mismo lugar con ayuda de diversos ejercicios, que permiten realizarse las veces que sean necesarias para que el tema quede completamente claro, esto con el objetivo de que la persona pueda conocer en qué preguntas han fallado más veces y en qué aspectos existen carencias que necesitan ser reforzadas para poder tener un entendimiento completo sobre el tema, obteniendo la retroalimentación de conocimiento en lugar del truncamiento del mismo. Como último recurso se tiene una evaluación final en cada lección y un parcial que pone a prueba todo lo que se espera que la persona haya aprendido, en caso de no aprobar la evaluación final se explicarán los temas, se detallara en qué partes de los mismos fallaron y se presentarán las actividades, y recursos de aprendizaje (videos, ejemplos, ejercicios) de una forma distinta a la presentada anteriormente, esto con el fin de ayudar a comprender el tema  evitando presentar la misma información con la cual el usuario no tuvo un aprendizaje favorable y con esto poder obtener como resultado final que el tema se haya comprendido completamente.\\
+
+\subsection{Diseño}
+Una plataforma web enfocada a la educación es una recurso que cubre las exigencias de un objeto de estudio, una de ellas se caracteriza por la disponibilidad hacia sus usuarios de diferentes edades y el diferente acceso que proporciona la conexión a internet, que permite poder acceder a la misma en prácticamente cualquier lugar y en cualquier momento, esta plataforma contendrá los temas referentes a las operaciones de conjuntos con cadenas, estos divididos a su vez en subtemas identificados dentro de este sitio como lecciones. Cada una de las lección tendrá una explicación inicial sobre el subtema que trata apoyado por un video o imagen o algún otro recurso gráfico que proporcione una idea más clara y contribuya a poder tener una mayor comprensión del mismo, seguido inmediatamente de una serie de ejercicios para poner en práctica lo aprendido con la explicación, los cuales ayudarán a identificar las debilidades en el conocimiento de los temas, por último cada lección contará con una evaluación final, tras haber concluido con el estudio de todos los subtemas el usuario realizará una evaluación final general que contendrá elementos de las lecciones aprobadas.
+
+
+\subsection{Desarrollo}
+En la actualidad existe un gran número de herramientas para el desarrollo web, sin embargo se optó por el framework de PHP(Hypertext Preprocessor))[10] Laravel[11] en su versión 5.2. \\
+La versión de PHP solicita como único requisito ser menor o igual a la Séptima Versión ya que esta trabaja con Composer[12], el cual es un gestor de dependencias de PHP entre sus versiones 1.3 a 1.5. Por otro lado, en el front-end se utilizará Bootstrap[13] versión 4, el cual es un conjunto de herramientas de código abierto para desarrollar HTML(HyperText Markup Language), CSS(Cascading Style Sheets) y JS(JavaScript). El tema de la organizacion y estructuracion del sistema se lleva a cabo mediante la herramienta de versionamiento de software Git[14] y la plataforma de desarrollo colaborativo Github[15].
+
+
+%
+\section{Resultados}
+La reducción de la brecha digital, que se está acentuando cada vez más no solo en nuestro país sino de manera global, provoca que existan cada vez más usuarios que puedan tener acceso y uso del Internet, propiciando un entorno favorable para el uso de plataformas web que usen distintos tipos de objetos de aprendizaje con el fin de poder facilitar la manera de estudiar y aprender algún tema nuevo o difícil de comprender, lo cual genera a su vez que exista una nuevo panorama en la orientación de desarrollo web: La educación.\\
+Existe una amplia cantidad de beneficios de usar herramientas digitales como plataformas web para el aprendizaje, entre los cuales están:
+\begin{itemize}
+\item Acceso a la información en casi cualquier lugar.
+\end{itemize}
+\begin{itemize}
+\item Comprender temas de una forma sencilla y práctica.
+\end{itemize}
+\begin{itemize}
+\item Acceder a la información en cualquier momento.
+\end{itemize}
+\begin{itemize}
+\item  Retroalimentación para reforzar el conocimiento.
+\end{itemize}
+\begin{itemize}
+\item  Diferentes formas de aprendizaje.
+\end{itemize}
+\begin{itemize}
+\item Evaluaciones para corroborar lo aprendido.
+\end{itemize}
+\begin{itemize}
+\item Diferentes formas de aprendizaje.
+\end{itemize}
+
+%
+
+%
+\section{Conclusiones}
+El aprendizaje mediante el uso de una plataforma web resulta una herramienta adecuada para poder obtener conocimiento completo en un gran número de aspectos, los beneficiarios, que en su mayoría son alumnos y personas interesadas en ampliar sus conocimientos, aprendiendo de manera teórica y práctica las lecciones disponibles en este medio sobre las Operaciones de Conjuntos de Cadenas, este mismo se encarga de orientar a los usuarios con los temas que le sean de mayor dificultad, en base a las respuestas de las evaluaciones realizadas. Es posible que en un futuro no solo contenga el tema de operaciones de conjuntos de cadenas, si no, que también comience a tener cada vez más lecciones quizás hasta de diferentes campos de estudio. De igual manera es importante recalcar que en la actualidad el uso de diferentes herramientas digitales para el aprendizaje va en aumento, lo cual predice que en un futuro no muy lejano muchos de los métodos y modelos tradicionales para el aprendizaje así como para la enseñanza se vean opacados y sustituidos por estos nuevos medios, gracias a que muchos han dado resultados favorables en la enseñanza de diferentes temas.
+
 %
 
 % ---- Bibliography ----
 %
 \begin{thebibliography}{5}
 %
-\bibitem {clar:eke}
-Clarke, F., Ekeland, I.:
-Nonlinear oscillations and
-boundary-value problems for Hamiltonian systems.
-Arch. Rat. Mech. Anal. 78, 315--333 (1982)
 
-\bibitem {clar:eke:2}
-Clarke, F., Ekeland, I.:
-Solutions p\'{e}riodiques, du
-p\'{e}riode donn\'{e}e, des \'{e}quations hamiltoniennes.
-Note CRAS Paris 287, 1013--1015 (1978)
+\bibitem{ramj}
+Ramírez, J.:Conocimientos Previos.\url{http://www3.gobiernodecanarias.org/medusa/
+edublogs/ceipmariajesusramirezdiaz/files/2013/09/4-CONOCIMIENTOS-PREVIOS.pdf}.(2013).
 
-\bibitem {mich:tar}
-Michalek, R., Tarantello, G.:
-Subharmonic solutions with prescribed minimal
-period for nonautonomous Hamiltonian systems.
-J. Diff. Eq. 72, 28--55 (1988)
+\bibitem {mor:edu}
+Morales, E.:
+Gestión del conocimiento e-learning, basado en objetos de aprendizaje, cualitativa y pedagógicamente definidos.
+Salamanca.(2010).
 
-\bibitem {tar}
-Tarantello, G.:
-Subharmonic solutions for Hamiltonian
-systems via a $\bbbz_{p}$ pseudoindex theory.
-Annali di Matematica Pura (to appear)
+\bibitem {hod:w}
+Hodgins, W.:
+"Into the future: A vision paper".(2000).
 
-\bibitem {rab}
-Rabinowitz, P.:
-On subharmonic solutions of a Hamiltonian system.
-Comm. Pure Appl. Math. 33, 609--633 (1980)
+\bibitem {wil:d}
+Wiley, D.:
+Learning object design and sequencing theory. Ph.D. Dissertation.
+Brigham Young University, USA. (2000).
+
+\bibitem {gar: l}
+García, L.:
+"Los objetos de aprendizaje son contenedores de información, están llamados a ser el componente clave de los sistemas de aprendizaje a distancia”.(2005).
+
+\bibitem{riv}
+Rivera M. “Objetos de Aprendizaje” (2013)
+
+\bibitem{black p}
+Black, P. , Wiliam, D.:”Inside the black box: Raising standards through classroom assessment.” Phi Delta Kappan, 80 (2), 139-148.(1998).
+
+\bibitem{int s}
+Internet Society: Global Internet Report (2015)
+
+\bibitem{int s}
+Internet Society: home page www.internetsociety.org, last accessed 2017/09/08
+
+\bibitem{php}
+
+PHP Homepage, http://php.net/, last accessed 2017/09/08.
+
+\bibitem{lara}
+Laravel Homepage, https://laravel.com/, last accessed 2017/09/08.
+
+\bibitem{comp}
+Composer Homepage, https://getcomposer.org/, last accessed 2017/09/08.
+
+\bibitem{boot}
+Bootstrap Homepage, http://getbootstrap.com/, last accessed 2017/09/08.
+
+\bibitem{git}
+Git Homepage, https://git-scm.com/, last accessed 2017/09/08.
+
+\bibitem{gith}
+Github Homepage, https://github.com/, last accessed 2017/09/08.
+
+\bibitem{mich R}
+Michael R. Garey , David S. Johnson. “Computers and Intractability. A Guide to         the Theory of NP-Completeness”. W.H. Freeman and Company, New York.(1979).
+\bibitem{John}
+John E. Hopcroft, Rajeev Motwani, Jeffrey D. Ullman. "Introducción a la Teoría de Autómatas, Lenguajes y Computación".  Addison Wesley.(2002).
+
+\bibitem{Dean}
+Dean Kelley.“Teoría de Autómatas y Lenguajes Formales”. Prentice-Hall Inc.(1995).
+
+
 
 \end{thebibliography}
+
+\section{Apéndices}
+\textbf{Apéndice  A[16]} \\
+Un alfabeto o vocabulario $\Sigma  $ es un conjunto finito no vacío de símbolos (objetos atómicos o indivisibles).\\
+ Ejemplos de alfabetos:\\
+Alfabeto de dígitos decimales
+\[
+\Sigma=
+\left\lbrace
+0,1,2,3,4,5,6,7,8,9
+\right\rbrace
+\]
+Alfabeto de dígitos binarios
+\[
+\Sigma=
+\left\lbrace
+0,1
+\right\rbrace
+\]
+Alfabeto de los caracteres 
+\[
+\Sigma=
+\left\lbrace
+a, b,...z, A,...Z, ?,!..., 
+\right\rbrace
+\]
+\textbf{Conjunto:} Es una colección o clase de objetos definidos, a estos objetos son llamados elementos”. Los conjuntos son denotados con una letra mayúscula.\\
+\textbf{Conjunto vacío:} es el conjunto sin elementos se representa Ø.\\
+Operaciones de conjuntos:\\
+Si se tienen dos conjuntos A y B, \textbf{La unión} de dos conjuntos consiste en todos los elementos que pertenecen a A o a B.
+\[
+A \cup B =
+\left\lbrace
+ x | x \in A \bigskip    \vee  x \in B 
+\right\rbrace
+\]
+
+ \textbf{Intersección} de dos conjuntos  consiste en todos los elementos que pertenecen al conjunto A y B
+\[
+A \cap B =
+\left\lbrace
+ x | x \in A \bigskip  \wedge    x \in B 
+\right\rbrace
+\]
+La Diferencia consiste en todos los elementos en A que no están en B
+
+\[
+A-B  =
+\left\lbrace
+ x | x \in A   \wedge  x \not\in B 
+\right\rbrace
+\]
+ Complemento en $\Sigma * $ son todos los elementos que no se encuentran contenidos en el conjunto A
+\[
+Ac  =
+\left\lbrace
+ x | x \in \Sigma*, x \not\in A
+\right\rbrace
+\]
+
+\textbf{Propiedades de conjuntos}\\
+\textbf{Asociativa}
+ \[
+ (A \cup B) \cup C = A \cup(B \cup C)  
+  \]
+\[
+ (A \cap B) \cap C = A \cap(B \cap C)  
+  \]
+\[
+ (AB)C = A(BC)  
+  \]
+  \textbf{Conmutativa}
+ \[
+ (A \cup B) = (A \cup B)  
+  \]
+   \[
+ (A \cap B) = (A \cap B)  
+  \]
+ \textbf{Distributiva}
+
+ \[
+ A \cup (B \cap C) = (A \cup B) \cap (A \cup C)  
+  \]
+   \[
+A \cap (B \cup C) = (A \cap B) \cup (A \cap C)
+  \] 
+ \textbf{Identidad}
+ \[
+ A \cup Ø = Ø \cup A = A
+  \]
+ \textbf{Aniquilador}
+ \[
+ A  Ø = Ø  A = A
+  \]
+
+   \textbf{Concatenación distributiva sobre la unión}
+ \[
+ A \cup (B \cup C) = AB \cup AC
+  \]
+\[
+( A \cup B)  C = AC \cup BC
+  \]
+  \textbf{Ley de Morgan }
+ \[
+\neg (A \cup B)= \neg A \cup  \neg B
+  \]
+\[
+\neg(A \cap B)= \neg A \cap  \neg B
+  \] 
+\textbf{Operaciones *}
+\[ 
+A* A* = A*
+\]
+\[ 
+A** =A*
+  \] 
+\[ 
+A*= { \in } \cup AA*
+  \]
+\[ 
+Ø*={\in}
+  \] 
+  \textbf{Apéndice  B[17]} \\  
+  Cadena
+Una cadena x es una sucesión finita de símbolos, sobre un alfabeto
+Las cadenas x1, x2,x3,x4 sobre E={0,1} se definen como:\\
+x1= 0101 \\
+x2= 1111 \\
+x3= 1111 \\
+x4=0111000 \\
+
+\textbf{Conjunto de cadena:} son aquellos formadas por los elementos del alfabeto E  se denota con E*
+
+\textbf{Concatenación}
+\[
+AB=
+\left\lbrace
+xy | x \in A \wedge y \in B
+\right\rbrace
+\]
+\[
+A*= A0 \cup A1 \cup A2 \cup A3 ... n
+\]
+
+\  \  \  \  \  \  \  \  \  \  \  \  \  \  \  \  A+= AA* = n  (no incluye cadena vacía) \\
+\textbf{Apéndice C[18]} \\
+\textbf{Unión de lenguajes}
+\[
+L1 \cup L2=
+\left\lbrace
+x \in \Sigma * |x \in L1 \vee x \in L2
+\right\rbrace
+\]
+Cumple la propiedad \\
+1. Asociativa 
+ \[
+ L1 \cup L2 \cup L3 = (L1 \cup L2 ) \cup L3 = L1 \cup (L2 \cup L3)  
+  \]
+
+3. Elemento neutro, 
+ \[
+ L1 \cup  Ø  =  Ø  \cup L1 
+  \]
+ Ejemplo:
+ \[
+\left\lbrace 
+a, ab \right\rbrace \cup \left\lbrace 
+ab, aab \right\rbrace = \left\lbrace 
+a, ab, aab \right\rbrace
+\]
+
+\textbf{Intersección de lenguajes}
+\[
+L1 \cap L2=
+\left\lbrace
+x \in \Sigma * |x \in L1 \wedge x \in L2
+\right\rbrace
+\]
+Cumple la propiedad \\
+1. Asociativa
+ \[9
+    L1 \cap L2 \cap L3 = (L1 \cap L2) \cap L3 = L1 \cap (L2 \cap L3)
+  \]
+
+3. Elemento neutro, 
+ \[
+ L1 \cap  \Sigma *  =  \Sigma * \cap L1 = L 
+  \]
+ Ejemplo:
+ \[
+\left\lbrace 
+a, ab \right\rbrace \cap \left\lbrace 
+ab, aab \right\rbrace = \left\lbrace 
+ ab \right\rbrace
+\]
+
+
+
+\textbf{Concatenación }
+\[
+L1L2=
+\left\lbrace
+x \in \Sigma * |x = yz \wedge y \in L1 \wedge z \in L2
+\right\rbrace
+\]
+Cumple la propiedad \\
+1. Asociativa
+ \[9
+    L1L2L3 = (L1L2)L3 = L1(L2L3)
+  \]
+
+3. Elemento neutro, 
+ \[
+ L1 \left\lbrace Ø \right\rbrace =  \left\lbrace Ø \right\rbrace L = L
+  \]
+ 
+ Ejemplo:
+ \[
+\left\lbrace 
+a, ab \right\rbrace \left\lbrace 
+b, ba \right\rbrace = \left\lbrace 
+ ab, aba, abb, abba \right\rbrace
+\]
+
+\textbf{Estrella de Kleene}
+ \[
+ L1* = \left\lbrace x1,x2,...,xn | n\geq 0 \wedge xi \in L, 1 \leq i \leq n \right\rbrace 
+  \]
+
 
 \end{document}

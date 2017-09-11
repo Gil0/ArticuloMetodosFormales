@@ -1,15 +1,17 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=pdflatex 2017.9.9)  11 SEP 2017 01:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.8.11)  11 SEP 2017 17:49
 entering extended mode
-**./llncs.tex
-(llncs.tex
-LaTeX2e <2017-04-15>
-Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
-(llncs.cls
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**llncs.tex
+(./llncs.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 3 language(s) loaded.
+(./llncs.cls
 Document Class: llncs 2017/09/04 v2.19 
  LaTeX document class for Lecture Notes in Computer Science
-("D:\archivos de programas\MiKTeX 2.9\tex\latex\base\article.cls"
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("D:\archivos de programas\MiKTeX 2.9\tex\latex\base\size10.clo"
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -24,8 +26,8 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("D:\archivos de programas\MiKTeX 2.9\tex\latex\tools\multicol.sty"
-Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
 \c@tracingmulticols=\count87
 \mult@box=\box26
 \multicol@leftmargin=\dimen103
@@ -72,10 +74,10 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \mult@nat@firstbox=\box50
 \colbreak@box=\box51
 \mc@col@check@num=\count95
-)
-(aliascnt.sty
+) (./aliascnt.sty
 Package: aliascnt 2009/09/08 v1.3 Alias counter (HO)
- (remreset.sty))
+
+(./remreset.sty))
 \c@chapter=\count96
 LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 362.
 LaTeX Font Info:    Redeclaring math symbol \Delta on input line 363.
@@ -126,21 +128,20 @@ LaTeX Font Info:    Redeclaring math symbol \Omega on input line 372.
 \c@solution=\count114
 \c@remark=\count115
 \headlineindent=\dimen124
-)
-("D:\archivos de programas\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks18
 \inpenc@posthook=\toks19
 
-("D:\archivos de programas\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("D:\archivos de programas\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
-File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -352,8 +353,6 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+0219 (decimal 537)
    defining Unicode char U+021A (decimal 538)
    defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+0232 (decimal 562)
-   defining Unicode char U+0233 (decimal 563)
    defining Unicode char U+1E02 (decimal 7682)
    defining Unicode char U+1E03 (decimal 7683)
    defining Unicode char U+200C (decimal 8204)
@@ -374,14 +373,12 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+2039 (decimal 8249)
    defining Unicode char U+203A (decimal 8250)
    defining Unicode char U+2423 (decimal 9251)
-   defining Unicode char U+1E20 (decimal 7712)
-   defining Unicode char U+1E21 (decimal 7713)
 )
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("D:\archivos de programas\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
-File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -421,8 +418,8 @@ File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("D:\archivos de programas\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
-File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -444,124 +441,135 @@ Now handling font encoding U ...
    defining Unicode char U+2026 (decimal 8230)
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
-)) (llncs.aux
+))
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count116
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip45
+\f@ncyO@elh=\skip46
+\f@ncyO@erh=\skip47
+\f@ncyO@olh=\skip48
+\f@ncyO@orh=\skip49
+\f@ncyO@elf=\skip50
+\f@ncyO@erf=\skip51
+\f@ncyO@olf=\skip52
+\f@ncyO@orf=\skip53
+) (./llncs.aux
 
 LaTeX Warning: Label `int s' multiply defined.
 
 )
 \openout1 = `llncs.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 32.
+(Font)              <7> on input line 48.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 32.
+(Font)              <5> on input line 48.
 
-Overfull \hbox (19.85715pt too wide) in paragraph at lines 48--60
+Overfull \hbox (19.85715pt too wide) in paragraph at lines 63--85
 \OT1/cmr/bx/n/10 Accesibilidad: \OT1/cmr/m/n/10 poder ser iden-ti-fi-ca-dos, bu
-s-ca-dos y en-con-tra-dos facilmente. Proposito
+s-ca-dos y en-con-tra-dos f^^Sacilmente. Prop^^Sosito
  []
 
 [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 61--67
-
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
+{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
 
 [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 135--137
+Underfull \hbox (badness 10000) in paragraph at lines 144--146
 \OT1/cmr/m/n/9 edublogs/ceipmariajesusramirezdiaz/files/2013/09/4-CONOCIMIENTOS
 -
  []
 
 [5]
-Underfull \hbox (badness 3354) in paragraph at lines 193--194
-[]\OT1/cmr/m/n/9 Dean Kel-ley.\Teora de Automatas y Lengua-jes For-males". P
-rentice-Hall
+Underfull \hbox (badness 3354) in paragraph at lines 202--203
+[]\OT1/cmr/m/n/9 Dean Kel-ley.\Teor^^S^^Pa de Aut^^Somatas y Lengua-jes For-mal
+es". Prentice-Hall
  []
 
 
-Overfull \hbox (0.78763pt too wide) in paragraph at lines 235--236
-[]\OT1/cmr/bx/n/10 Interseccion \OT1/cmr/m/n/10 de dos con-jun-tos con-siste e
-n to-dos los el-e-men-tos que pertenecen
+Overfull \hbox (0.78763pt too wide) in paragraph at lines 244--245
+[]\OT1/cmr/bx/n/10 Intersecci^^Son \OT1/cmr/m/n/10 de dos con-jun-tos con-siste
+ en to-dos los el-e-men-tos que pertenecen
  []
 
 [6]
 
-LaTeX Warning: Command \O invalid in math mode on input line 286.
+LaTeX Warning: Command \O invalid in math mode on input line 295.
 
 
-LaTeX Warning: Command \O invalid in math mode on input line 286.
+LaTeX Warning: Command \O invalid in math mode on input line 295.
 
 
-LaTeX Warning: Command \O invalid in math mode on input line 290.
+LaTeX Warning: Command \O invalid in math mode on input line 299.
 
 
-LaTeX Warning: Command \O invalid in math mode on input line 290.
+LaTeX Warning: Command \O invalid in math mode on input line 299.
 
 
-LaTeX Warning: Command \O invalid in math mode on input line 318.
+LaTeX Warning: Command \O invalid in math mode on input line 327.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 319--328
+Underfull \hbox (badness 10000) in paragraph at lines 328--337
 
  []
 
 [7]
 
-LaTeX Warning: Command \O invalid in math mode on input line 359.
+LaTeX Warning: Command \O invalid in math mode on input line 368.
 
 
-LaTeX Warning: Command \O invalid in math mode on input line 359.
+LaTeX Warning: Command \O invalid in math mode on input line 368.
 
 
-LaTeX Warning: Command \O invalid in math mode on input line 411.
+LaTeX Warning: Command \O invalid in math mode on input line 420.
 
 
-LaTeX Warning: Command \O invalid in math mode on input line 411.
+LaTeX Warning: Command \O invalid in math mode on input line 420.
 
-[8] (llncs.aux)
+[8] (./llncs.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 972 strings out of 493323
- 9839 string characters out of 3135619
- 75814 words of memory out of 3000000
- 4563 multiletter control sequences out of 15000+200000
- 5932 words of font info for 22 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 29i,5n,21p,1829b,232s stack positions out of 5000i,500n,10000p,200000b,50000s
-<D:/archivos de programas/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pf
-b><D:/archivos de programas/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pf
-b><D:/archivos de programas/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb
-><D:/archivos de programas/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-><D:/archivos de programas/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-<D:/archivos de programas/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><D
-:/archivos de programas/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><D:/
-archivos de programas/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/
-archivos de programas/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on llncs.pdf (8 pages, 151446 bytes).
+ 1390 strings out of 494946
+ 14545 string characters out of 6180981
+ 83792 words of memory out of 5000000
+ 4728 multiletter control sequences out of 15000+600000
+ 5932 words of font info for 22 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 29i,11n,43p,1827b,318s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmtt9.pfb>
+Output written on llncs.pdf (8 pages, 143221 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
+ 67 PDF objects out of 1000 (max. 8388607)
+ 47 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
